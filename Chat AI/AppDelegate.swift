@@ -7,7 +7,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow()
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        let navigation =  UINavigationController(rootViewController: FirstScreenViewController())
+        navigation.isNavigationBarHidden = true
+        window?.rootViewController = navigation
         window?.makeKeyAndVisible()
                
 

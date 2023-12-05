@@ -1,0 +1,91 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "onboard_btn_next" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далі"
+          }
+        }
+      }
+    },
+    "onboard_detail_text_first" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to GPT, your personal AI companion! Make your life easer, AI will answer your questions and be your go-to for any information you need. With cutting-edge technology and a user-friendly interface, let’s start exploring the world of AI together!"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ласкаво просимо до GPT, вашого персонального компаньйона! Зробіть ваше життя простішим, штучний інтелект відповість на ваші запитання та допоможе вам отримати будь-яку необхідну інформацію. Завдяки передовій технології та зручному інтерфейсу, давайте почнемо досліджувати світ разом!"
+          }
+        }
+      }
+    },
+    "onboard_title_first" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GPT: Your Personal AI Companion"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GPT: Ваш особистий супутник "
+          }
+        }
+      }
+    },
+    "onboard_title_second" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GPT: Your Writing Genius"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GPT: Ваш письменницький геній"
+          }
+        }
+      }
+    },
+    "onboard_title_third" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get unlimited access!"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отримайте необмежений доступ!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

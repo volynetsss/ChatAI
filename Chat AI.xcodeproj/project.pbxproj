@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FE773ACA2B1F17B00013BAB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE773AC92B1F17B00013BAB1 /* AppDelegate.swift */; };
-		FE773ACE2B1F17B00013BAB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE773ACD2B1F17B00013BAB1 /* ViewController.swift */; };
 		FE773AD32B1F17B10013BAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE773AD22B1F17B10013BAB1 /* Assets.xcassets */; };
 		FE773AD62B1F17B10013BAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE773AD42B1F17B10013BAB1 /* LaunchScreen.storyboard */; };
 		FE773AE12B1F19240013BAB1 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE773ADF2B1F19240013BAB1 /* Poppins-SemiBold.ttf */; };
@@ -18,12 +17,23 @@
 		FE773AEA2B1F195C0013BAB1 /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE773AE72B1F195C0013BAB1 /* SFProText-Medium.ttf */; };
 		FE773AEB2B1F195C0013BAB1 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE773AE82B1F195C0013BAB1 /* SFProText-Regular.ttf */; };
 		FE773AEC2B1F195C0013BAB1 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE773AE92B1F195C0013BAB1 /* SFProText-Semibold.ttf */; };
+		FED1525C2B1F292C00ADD1A5 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1525B2B1F292C00ADD1A5 /* FirstScreenViewController.swift */; };
+		FED1525E2B1F294500ADD1A5 /* FirstScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1525D2B1F294500ADD1A5 /* FirstScreenView.swift */; };
+		FED152612B1F298200ADD1A5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FED152602B1F298200ADD1A5 /* SnapKit */; };
+		FED152692B1F2D3D00ADD1A5 /* SizeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED152682B1F2D3D00ADD1A5 /* SizeHelper.swift */; };
+		FED1526C2B1F2E6100ADD1A5 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = FED1526B2B1F2E6100ADD1A5 /* Localizable.xcstrings */; };
+		FED1526F2B1F2FF300ADD1A5 /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1526E2B1F2FF300ADD1A5 /* String+localized.swift */; };
+		FED152752B1F335800ADD1A5 /* UIFont+poppins.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED152742B1F335800ADD1A5 /* UIFont+poppins.swift */; };
+		FED152772B1F341200ADD1A5 /* LocalizationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED152762B1F341200ADD1A5 /* LocalizationKeys.swift */; };
+		FED1527F2B1F382E00ADD1A5 /* OnboardHeaderTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1527E2B1F382E00ADD1A5 /* OnboardHeaderTitle.swift */; };
+		FED152852B1F408700ADD1A5 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED152842B1F408700ADD1A5 /* GradientButton.swift */; };
+		FED152872B1F548600ADD1A5 /* UIFont+sfprotext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED152862B1F548600ADD1A5 /* UIFont+sfprotext.swift */; };
+		FED152892B1F56DC00ADD1A5 /* OnboardDetailText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED152882B1F56DC00ADD1A5 /* OnboardDetailText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE773AC62B1F17B00013BAB1 /* Chat AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE773AC92B1F17B00013BAB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE773ACD2B1F17B00013BAB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE773AD22B1F17B10013BAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE773AD52B1F17B10013BAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE773AD72B1F17B10013BAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +44,17 @@
 		FE773AE72B1F195C0013BAB1 /* SFProText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Medium.ttf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/San Francisco Pro Text/SFProText-Medium.ttf"; sourceTree = "<group>"; };
 		FE773AE82B1F195C0013BAB1 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Regular.ttf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/San Francisco Pro Text/SFProText-Regular.ttf"; sourceTree = "<group>"; };
 		FE773AE92B1F195C0013BAB1 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Semibold.ttf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/San Francisco Pro Text/SFProText-Semibold.ttf"; sourceTree = "<group>"; };
+		FED1525B2B1F292C00ADD1A5 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		FED1525D2B1F294500ADD1A5 /* FirstScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenView.swift; sourceTree = "<group>"; };
+		FED152682B1F2D3D00ADD1A5 /* SizeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeHelper.swift; sourceTree = "<group>"; };
+		FED1526B2B1F2E6100ADD1A5 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		FED1526E2B1F2FF300ADD1A5 /* String+localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+localized.swift"; sourceTree = "<group>"; };
+		FED152742B1F335800ADD1A5 /* UIFont+poppins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+poppins.swift"; sourceTree = "<group>"; };
+		FED152762B1F341200ADD1A5 /* LocalizationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationKeys.swift; sourceTree = "<group>"; };
+		FED1527E2B1F382E00ADD1A5 /* OnboardHeaderTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardHeaderTitle.swift; sourceTree = "<group>"; };
+		FED152842B1F408700ADD1A5 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		FED152862B1F548600ADD1A5 /* UIFont+sfprotext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+sfprotext.swift"; sourceTree = "<group>"; };
+		FED152882B1F56DC00ADD1A5 /* OnboardDetailText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardDetailText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED152612B1F298200ADD1A5 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +93,6 @@
 				FE773AEF2B1F1C490013BAB1 /* Common */,
 				FE773ADD2B1F18AF0013BAB1 /* Resources */,
 				FE773AC92B1F17B00013BAB1 /* AppDelegate.swift */,
-				FE773ACD2B1F17B00013BAB1 /* ViewController.swift */,
 				FE773AD72B1F17B10013BAB1 /* Info.plist */,
 			);
 			path = "Chat AI";
@@ -80,6 +101,7 @@
 		FE773ADD2B1F18AF0013BAB1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FED1526A2B1F2E5100ADD1A5 /* Localization */,
 				FE773ADE2B1F18F50013BAB1 /* Fonts */,
 				FE773AD42B1F17B10013BAB1 /* LaunchScreen.storyboard */,
 				FE773AD22B1F17B10013BAB1 /* Assets.xcassets */,
@@ -104,6 +126,7 @@
 		FE773AED2B1F1C2D0013BAB1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				FED152572B1F28E600ADD1A5 /* Onboarding */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -118,6 +141,9 @@
 		FE773AEF2B1F1C490013BAB1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				FED1527C2B1F37D600ADD1A5 /* Components */,
+				FED1526D2B1F2FDC00ADD1A5 /* Extension */,
+				FED152662B1F2C4900ADD1A5 /* Helpers */,
 				FE773AF22B1F1CA90013BAB1 /* Constants */,
 				FE773AF12B1F1C7C0013BAB1 /* Managers */,
 				FE773AF02B1F1C740013BAB1 /* Models */,
@@ -142,8 +168,126 @@
 		FE773AF22B1F1CA90013BAB1 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				FED152762B1F341200ADD1A5 /* LocalizationKeys.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		FED152572B1F28E600ADD1A5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FED1528A2B1F59B400ADD1A5 /* SecondScreen */,
+				FED152582B1F28F500ADD1A5 /* FirstScreen */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FED152582B1F28F500ADD1A5 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FED1525A2B1F290900ADD1A5 /* Contrtoller */,
+				FED152592B1F290300ADD1A5 /* View */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		FED152592B1F290300ADD1A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FED1525D2B1F294500ADD1A5 /* FirstScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FED1525A2B1F290900ADD1A5 /* Contrtoller */ = {
+			isa = PBXGroup;
+			children = (
+				FED1525B2B1F292C00ADD1A5 /* FirstScreenViewController.swift */,
+			);
+			path = Contrtoller;
+			sourceTree = "<group>";
+		};
+		FED152662B1F2C4900ADD1A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FED152672B1F2C5300ADD1A5 /* SizeHelper */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FED152672B1F2C5300ADD1A5 /* SizeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				FED152682B1F2D3D00ADD1A5 /* SizeHelper.swift */,
+			);
+			path = SizeHelper;
+			sourceTree = "<group>";
+		};
+		FED1526A2B1F2E5100ADD1A5 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				FED1526B2B1F2E6100ADD1A5 /* Localizable.xcstrings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		FED1526D2B1F2FDC00ADD1A5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FED152732B1F334500ADD1A5 /* UIFont */,
+				FED152702B1F300100ADD1A5 /* String */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FED152702B1F300100ADD1A5 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				FED1526E2B1F2FF300ADD1A5 /* String+localized.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		FED152732B1F334500ADD1A5 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				FED152742B1F335800ADD1A5 /* UIFont+poppins.swift */,
+				FED152862B1F548600ADD1A5 /* UIFont+sfprotext.swift */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		FED1527C2B1F37D600ADD1A5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FED152832B1F407200ADD1A5 /* UIButton */,
+				FED1527D2B1F37FF00ADD1A5 /* UILabel */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FED1527D2B1F37FF00ADD1A5 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				FED1527E2B1F382E00ADD1A5 /* OnboardHeaderTitle.swift */,
+				FED152882B1F56DC00ADD1A5 /* OnboardDetailText.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		FED152832B1F407200ADD1A5 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				FED152842B1F408700ADD1A5 /* GradientButton.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		FED1528A2B1F59B400ADD1A5 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecondScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +306,9 @@
 			dependencies = (
 			);
 			name = "Chat AI";
+			packageProductDependencies = (
+				FED152602B1F298200ADD1A5 /* SnapKit */,
+			);
 			productName = "Chat AI";
 			productReference = FE773AC62B1F17B00013BAB1 /* Chat AI.app */;
 			productType = "com.apple.product-type.application";
@@ -188,8 +335,12 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
 			);
 			mainGroup = FE773ABD2B1F17AF0013BAB1;
+			packageReferences = (
+				FED1525F2B1F298100ADD1A5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = FE773AC72B1F17B00013BAB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -210,6 +361,7 @@
 				FE773AE22B1F19240013BAB1 /* Poppins-Medium.ttf in Resources */,
 				FE773AE52B1F193D0013BAB1 /* SF-Pro-Display-Semibold.otf in Resources */,
 				FE773AD62B1F17B10013BAB1 /* LaunchScreen.storyboard in Resources */,
+				FED1526C2B1F2E6100ADD1A5 /* Localizable.xcstrings in Resources */,
 				FE773AE62B1F193D0013BAB1 /* SF-Pro-Display-Regular.otf in Resources */,
 				FE773AD32B1F17B10013BAB1 /* Assets.xcassets in Resources */,
 				FE773AEB2B1F195C0013BAB1 /* SFProText-Regular.ttf in Resources */,
@@ -223,8 +375,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE773ACE2B1F17B00013BAB1 /* ViewController.swift in Sources */,
+				FED152772B1F341200ADD1A5 /* LocalizationKeys.swift in Sources */,
+				FED1525C2B1F292C00ADD1A5 /* FirstScreenViewController.swift in Sources */,
+				FED1526F2B1F2FF300ADD1A5 /* String+localized.swift in Sources */,
 				FE773ACA2B1F17B00013BAB1 /* AppDelegate.swift in Sources */,
+				FED152892B1F56DC00ADD1A5 /* OnboardDetailText.swift in Sources */,
+				FED152692B1F2D3D00ADD1A5 /* SizeHelper.swift in Sources */,
+				FED152852B1F408700ADD1A5 /* GradientButton.swift in Sources */,
+				FED152872B1F548600ADD1A5 /* UIFont+sfprotext.swift in Sources */,
+				FED152752B1F335800ADD1A5 /* UIFont+poppins.swift in Sources */,
+				FED1527F2B1F382E00ADD1A5 /* OnboardHeaderTitle.swift in Sources */,
+				FED1525E2B1F294500ADD1A5 /* FirstScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +533,7 @@
 				INFOPLIST_FILE = "Chat AI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,8 +558,7 @@
 				INFOPLIST_FILE = "Chat AI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,6 +594,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FED1525F2B1F298100ADD1A5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FED152602B1F298200ADD1A5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED1525F2B1F298100ADD1A5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE773ABE2B1F17AF0013BAB1 /* Project object */;
 }

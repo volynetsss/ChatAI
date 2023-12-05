@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE773ACA2B1F17B00013BAB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE773AC92B1F17B00013BAB1 /* AppDelegate.swift */; };
+		FE773ACE2B1F17B00013BAB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE773ACD2B1F17B00013BAB1 /* ViewController.swift */; };
+		FE773AD32B1F17B10013BAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE773AD22B1F17B10013BAB1 /* Assets.xcassets */; };
+		FE773AD62B1F17B10013BAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE773AD42B1F17B10013BAB1 /* LaunchScreen.storyboard */; };
+		FE773AE12B1F19240013BAB1 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE773ADF2B1F19240013BAB1 /* Poppins-SemiBold.ttf */; };
+		FE773AE22B1F19240013BAB1 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE773AE02B1F19240013BAB1 /* Poppins-Medium.ttf */; };
+		FE773AE52B1F193D0013BAB1 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE773AE32B1F193D0013BAB1 /* SF-Pro-Display-Semibold.otf */; };
+		FE773AE62B1F193D0013BAB1 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE773AE42B1F193D0013BAB1 /* SF-Pro-Display-Regular.otf */; };
+		FE773AEA2B1F195C0013BAB1 /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE773AE72B1F195C0013BAB1 /* SFProText-Medium.ttf */; };
+		FE773AEB2B1F195C0013BAB1 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE773AE82B1F195C0013BAB1 /* SFProText-Regular.ttf */; };
+		FE773AEC2B1F195C0013BAB1 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE773AE92B1F195C0013BAB1 /* SFProText-Semibold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE773AC62B1F17B00013BAB1 /* Chat AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE773AC92B1F17B00013BAB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE773ACD2B1F17B00013BAB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE773AD22B1F17B10013BAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE773AD52B1F17B10013BAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE773AD72B1F17B10013BAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE773ADF2B1F19240013BAB1 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		FE773AE02B1F19240013BAB1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FE773AE32B1F193D0013BAB1 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Semibold.otf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/San Francisco Pro Display/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		FE773AE42B1F193D0013BAB1 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/San Francisco Pro Display/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		FE773AE72B1F195C0013BAB1 /* SFProText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Medium.ttf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/San Francisco Pro Text/SFProText-Medium.ttf"; sourceTree = "<group>"; };
+		FE773AE82B1F195C0013BAB1 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Regular.ttf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/San Francisco Pro Text/SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		FE773AE92B1F195C0013BAB1 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Semibold.ttf"; path = "../../../../../../Downloads/For ChatAI App/Fonts/San Francisco Pro Text/SFProText-Semibold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE773AC32B1F17B00013BAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE773ABD2B1F17AF0013BAB1 = {
+			isa = PBXGroup;
+			children = (
+				FE773AC82B1F17B00013BAB1 /* Chat AI */,
+				FE773AC72B1F17B00013BAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE773AC72B1F17B00013BAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE773AC62B1F17B00013BAB1 /* Chat AI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE773AC82B1F17B00013BAB1 /* Chat AI */ = {
+			isa = PBXGroup;
+			children = (
+				FE773AED2B1F1C2D0013BAB1 /* Modules */,
+				FE773AEE2B1F1C400013BAB1 /* Navigation */,
+				FE773AEF2B1F1C490013BAB1 /* Common */,
+				FE773ADD2B1F18AF0013BAB1 /* Resources */,
+				FE773AC92B1F17B00013BAB1 /* AppDelegate.swift */,
+				FE773ACD2B1F17B00013BAB1 /* ViewController.swift */,
+				FE773AD72B1F17B10013BAB1 /* Info.plist */,
+			);
+			path = "Chat AI";
+			sourceTree = "<group>";
+		};
+		FE773ADD2B1F18AF0013BAB1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE773ADE2B1F18F50013BAB1 /* Fonts */,
+				FE773AD42B1F17B10013BAB1 /* LaunchScreen.storyboard */,
+				FE773AD22B1F17B10013BAB1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE773ADE2B1F18F50013BAB1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FE773AE72B1F195C0013BAB1 /* SFProText-Medium.ttf */,
+				FE773AE82B1F195C0013BAB1 /* SFProText-Regular.ttf */,
+				FE773AE92B1F195C0013BAB1 /* SFProText-Semibold.ttf */,
+				FE773AE42B1F193D0013BAB1 /* SF-Pro-Display-Regular.otf */,
+				FE773AE32B1F193D0013BAB1 /* SF-Pro-Display-Semibold.otf */,
+				FE773AE02B1F19240013BAB1 /* Poppins-Medium.ttf */,
+				FE773ADF2B1F19240013BAB1 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FE773AED2B1F1C2D0013BAB1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FE773AEE2B1F1C400013BAB1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FE773AEF2B1F1C490013BAB1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FE773AF22B1F1CA90013BAB1 /* Constants */,
+				FE773AF12B1F1C7C0013BAB1 /* Managers */,
+				FE773AF02B1F1C740013BAB1 /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FE773AF02B1F1C740013BAB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE773AF12B1F1C7C0013BAB1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FE773AF22B1F1CA90013BAB1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE773AC52B1F17B00013BAB1 /* Chat AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE773ADA2B1F17B10013BAB1 /* Build configuration list for PBXNativeTarget "Chat AI" */;
+			buildPhases = (
+				FE773AC22B1F17B00013BAB1 /* Sources */,
+				FE773AC32B1F17B00013BAB1 /* Frameworks */,
+				FE773AC42B1F17B00013BAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chat AI";
+			productName = "Chat AI";
+			productReference = FE773AC62B1F17B00013BAB1 /* Chat AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE773ABE2B1F17AF0013BAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FE773AC52B1F17B00013BAB1 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FE773AC12B1F17B00013BAB1 /* Build configuration list for PBXProject "Chat AI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE773ABD2B1F17AF0013BAB1;
+			productRefGroup = FE773AC72B1F17B00013BAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE773AC52B1F17B00013BAB1 /* Chat AI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE773AC42B1F17B00013BAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE773AE12B1F19240013BAB1 /* Poppins-SemiBold.ttf in Resources */,
+				FE773AEA2B1F195C0013BAB1 /* SFProText-Medium.ttf in Resources */,
+				FE773AEC2B1F195C0013BAB1 /* SFProText-Semibold.ttf in Resources */,
+				FE773AE22B1F19240013BAB1 /* Poppins-Medium.ttf in Resources */,
+				FE773AE52B1F193D0013BAB1 /* SF-Pro-Display-Semibold.otf in Resources */,
+				FE773AD62B1F17B10013BAB1 /* LaunchScreen.storyboard in Resources */,
+				FE773AE62B1F193D0013BAB1 /* SF-Pro-Display-Regular.otf in Resources */,
+				FE773AD32B1F17B10013BAB1 /* Assets.xcassets in Resources */,
+				FE773AEB2B1F195C0013BAB1 /* SFProText-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE773AC22B1F17B00013BAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE773ACE2B1F17B00013BAB1 /* ViewController.swift in Sources */,
+				FE773ACA2B1F17B00013BAB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE773AD42B1F17B10013BAB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE773AD52B1F17B10013BAB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE773AD82B1F17B10013BAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE773AD92B1F17B10013BAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE773ADB2B1F17B10013BAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = LightIconApp;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chat AI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volynets.Chat-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE773ADC2B1F17B10013BAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = LightIconApp;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chat AI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volynets.Chat-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE773AC12B1F17B00013BAB1 /* Build configuration list for PBXProject "Chat AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE773AD82B1F17B10013BAB1 /* Debug */,
+				FE773AD92B1F17B10013BAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE773ADA2B1F17B10013BAB1 /* Build configuration list for PBXNativeTarget "Chat AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE773ADB2B1F17B10013BAB1 /* Debug */,
+				FE773ADC2B1F17B10013BAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE773ABE2B1F17AF0013BAB1 /* Project object */;
+}

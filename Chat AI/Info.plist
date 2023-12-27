@@ -11,6 +11,32 @@
 		<string>SF-Pro-Display-Semibold.otf</string>
 		<string>Poppins-Medium.ttf</string>
 		<string>Poppins-SemiBold.ttf</string>
+		<string>SFProText-Light.ttf</string>
+		<string>SFProText-Bold.ttf</string>
 	</array>
+    <key>CFBundleIcons</key>
+    <dict>
+        <key>CFBundleAlternateIcons</key>
+        <dict>
+            <key>LightIconApp</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>LightIconApp</string>
+                </array>
+                <key>UIUserInterfaceStyle</key>
+                <string>light</string>
+            </dict>
+            <key>DarkIconApp</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>DarkIconApp</string>
+                </array>
+                <key>UIUserInterfaceStyle</key>
+                <string>dark</string>
+            </dict>
+        </dict>
+    </dict>
 </dict>
 </plist>
